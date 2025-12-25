@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - EdTech Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="container flex">
+            <h1 class="logo">LearnHub</h1>
+            <ul class="nav-links">
+                <li><a href="login.html" class="nav-link">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container grid">
+                <div class="hero-content">
+                    <h1>Master Digital Skills Today</h1>
+                    <p>Join 50,000+ students learning cutting-edge skills with expert instructors.</p>
+                    <a href="#contact" class="btn btn-primary">Get Started Free</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Why Choose LearnHub?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>300+ Courses</h3>
+                        <p>Comprehensive curriculum covering web development, data science, and more.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Free Certificates</h3>
+                        <p>Earn industry-recognized certificates upon course completion.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Expert Instructors</h3>
+                        <p>Learn from industry professionals with real-world experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="success-message" id="successMessage" style="display: none;">Thank you! Your message has been sent.</div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
