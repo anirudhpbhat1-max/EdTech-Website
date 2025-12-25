@@ -1,6 +1,4 @@
-/* =====================
-   RESET & GLOBAL
-===================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,9 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* =====================
-   COMMON UTILITIES
-===================== */
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -34,9 +30,7 @@ section {
     scroll-margin-top: 80px;
 }
 
-/* =====================
-   BUTTONS
-===================== */
+
 .btn {
     display: inline-block;
     padding: 12px 30px;
@@ -58,9 +52,7 @@ section {
     box-shadow: 0 8px 20px rgba(20,184,166,0.4);
 }
 
-/* =====================
-   NAVBAR
-===================== */
+
 .navbar {
     background: #020617;
     padding: 1.2rem 0;
@@ -91,9 +83,7 @@ section {
     color: #14b8a6;
 }
 
-/* =====================
-   HERO SECTION
-===================== */
+
 .hero {
     background: radial-gradient(circle at top, #0f766e, #020617);
     text-align: center;
@@ -115,9 +105,7 @@ section {
     margin-bottom: 2rem;
 }
 
-/* =====================
-   FEATURES
-===================== */
+
 .features {
     background: #020617;
 }
@@ -157,9 +145,7 @@ section {
     color: #cbd5f5;
 }
 
-/* =====================
-   CONTACT FORM
-===================== */
+
 .contact h2 {
     text-align: center;
     margin-bottom: 3rem;
@@ -210,9 +196,7 @@ textarea {
     margin-top: 1rem;
 }
 
-/* =====================
-   LOGIN PAGE
-===================== */
+/* LOGIN PAGE */
 .login-container {
     min-height: 100vh;
     background: linear-gradient(135deg, #020617, #0f766e);
